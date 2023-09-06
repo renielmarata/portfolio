@@ -1,0 +1,40 @@
+#navBar {
+    font-family: 'montserrat', sans-serif;
+    font-size: 2vh;
+    
+
+}
+
+
+#navBar #buttonContainer a {
+    color: #656565;
+    white-space: normal;
+}
+
+
+#navBar #buttonContainer a {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#navBar #buttonContainer a:hover {
+    transform: scale(1.1);
+}
+
+#navbar #buttonContainer a:active {
+    color: #838383;
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+    #navBar {
+        font-family: 'montserrat', sans-serif;
+        font-size: 2vh;
+        display: flex;
+    }
+
+    #navBar #buttonContainer {
+        gap: 12%;
+    }
+
+}

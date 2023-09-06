@@ -1,0 +1,19 @@
+#projectField {
+    font-size: 3vh;
+    border: 1px solid red;
+    width: 100%;
+    height: 20%;
+    border: 2px dashed #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    #projectField {
+        width: 100%;
+    }
+
+}
+

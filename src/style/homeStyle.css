@@ -1,0 +1,70 @@
+#home {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0% 20%;
+    display: flex;
+}
+
+
+#home .textContainer .header {
+    font-size: 7vh;
+    font-weight: bolder;
+}
+
+#home .textContainer h1 span {
+    color: #FF014F;
+}
+
+#home .textContainer .subHeader {
+    font-size: 3.4vh;
+    font-weight: bolder;
+}
+
+#home .textContainer .subHeader .a {
+    color: #FF014F;
+}
+
+#home .textContainer .text {
+    line-height: 1.7;
+    font-size: 2.5vh;
+    color: #3C3E41;
+}
+
+#home #socialMediaContainer img {
+    width: 4vh;
+}
+
+#home #socialMediaContainer img {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+#home #socialMediaContainer img:hover {
+    transform: scale(1.1);
+}
+
+#home #socialMediaContainer img:active {
+    transform: scale(.9);
+}
+
+
+
+@media only screen and (max-width: 1023px) {
+    #home {
+        padding: 0% 10%;
+    }
+
+    #home .textContainer .header {
+        font-size: 4vh;
+        font-weight: bolder;
+    }
+
+    #home .textContainer .subHeader {
+        font-size: 2.3vh;
+        font-weight: bolder;
+    }
+
+    #home .textContainer .text {
+        line-height: 1.7;
+        font-size: 2vh;
+        color: #3C3E41;
+    }
+}
